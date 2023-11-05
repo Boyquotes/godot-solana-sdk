@@ -42,13 +42,13 @@ jobs:
             platform: android
             arch: arm64
           - identifier: macos-debug
-            os: macos-latest
+            runner: macos-latest
             name: 🍎 macOS (universal) Debug
             target: template_debug
             platform: macos
             arch: universal
           - identifier: macos-release
-            os: macos-latest
+            runner: macos-latest
             name: 🍎 macOS (universal) Release
             target: template_release
             platform: macos
